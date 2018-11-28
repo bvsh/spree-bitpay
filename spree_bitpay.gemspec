@@ -20,8 +20,8 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 3.0.1'
-  s.add_dependency 'bitpay-rails', '~> 2.0'
+  s.add_dependency 'spree_core'
+  s.add_dependency 'bitpay-rails'
 
 
   s.add_development_dependency 'capybara', '~> 2.4'
